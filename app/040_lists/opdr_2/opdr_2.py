@@ -13,3 +13,7 @@ rivieren = list(rivier_info.keys())
 # rivieren is nu een list met alleen de riviernamen: ['rijn', 'maas', 'nijl']
 
 # Hier jouw code.....
+
+for rivier in rivieren:
+    print(f"De {rivier} stroomt door de volgende landen: {', '.join(rivier_info[rivier])}")
+    
